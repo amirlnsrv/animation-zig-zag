@@ -1,0 +1,28 @@
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: darkseagreen;
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    text-align: center;
+    animation-delay: 1s;
+    animation-direction: reverse;
+}
+@keyframes example {
+10%{background-color: red; left: 0; top: 0;}
+20%{background-color: yellow; left:20%;}
+30%{background-color: blue; left: 0; top:200px}
+40%{background-color: orange; left:0px; top: 200px}
+50%{background-color: green; left: 0;top: 500px}
+60%{background-color: black; left: 90%}
+70%{background-color: yellow; left: 90%; top:500px}
+80%{background-color: brown; left:90%; top: 200px}
+90%{background-color: darkmagenta; left: 75%; top: 0}
+100%{background-color: cornflowerblue; left:90%; top: 0}
+}
+body{
+    background-color: darkseagreen;
+}
+
